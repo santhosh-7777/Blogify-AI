@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import BlogCard from './BlogCard'
 import { useAppContext } from '../context/AppContext'
 
-const Bloglist = () => {
+const BlogList = () => {
 
   const[menu, setMenu] = useState("All")
   const { blogs , input } = useAppContext();
@@ -48,4 +48,4 @@ const Bloglist = () => {
   )
 }
 
-export default Bloglist
+export default BlogList
